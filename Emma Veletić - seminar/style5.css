@@ -1,0 +1,47 @@
+*{
+    
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.container{
+    max-width: 100%;
+    display: flex;
+    background: rgb(100, 100, 129);
+    padding: 50px;
+    box-sizing: border-box;
+    flex-direction: row;
+  }
+
+  .lijeviblok{
+    flex: 1;
+    background: rgb(113, 221, 6);
+    padding: 30px;
+    font-size: 15px;
+    color: #fff3f3;
+    margin: 3px;
+  }
+
+  .srednjiblok{
+    flex: 1;
+    background: #fff;
+    padding: 30px;
+    font-size: 15px;
+    color: rgb(100, 100, 129);
+    margin: 3px;
+  }
+ 
+  .desniblok{
+    flex: 1;
+    background: rgb(0, 214, 252);
+    padding: 30px;
+    font-size: 15px;
+    color: black;
+    margin: 3px;
+  }
+
+  .footer{
+    text-align: center;
+  }
+
+ 
